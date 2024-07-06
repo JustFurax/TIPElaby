@@ -27,27 +27,27 @@ Par convention nos labyrhinte sont stockés dans une variable sous forme de matr
 
 
 
-<h2>La Generation par fusion (TSI_GEN_FUSION.py)</h2>
+<h2>La Generation par fusion (TSI_GEN_FUSION.py)</h2><br />
 
 La fonction fusion(taillex, tailley) genère un labyrinthe de taille (taillex*2)+1 sur x, (tailley*2)+1 sur y. Car la methode de génération par fusion doit partir d'un labyrinthe de taille impair.<br />
-La fonction murflottants(matmur, nb) prend un labyrinthe et ajoute un nombre nb de murs flottants.
+La fonction murflottants(matmur, nb) prend un labyrinthe et ajoute un nombre nb de murs flottants.<br />
 
-<h2>La résolution par l'aleatoire (TSI_ALEATOIRE.py)</h2>
+<h2>La résolution par l'aleatoire (TSI_ALEATOIRE.py)</h2><br />
 
 La fonction aleatoire(laby) résout le labyrinthe aléatoirement et retourne le nombre de mouvements nécessaire à la resolution.
 
-<h2>La résolution par la méthode du Pompier (main droite) (TSI_POMPIER.py)</h2>
+<h2>La résolution par la méthode du Pompier (main droite) (TSI_POMPIER.py)</h2><br />
 
-La fonction pompier(grid) permet la résolution par la methode de la main droite jusqu'a trouvée la sortie materialisée par un 2 dans la matrice. Si le labyrinthe comporte des murs flottants la résolution peut etre impossible.
+La fonction pompier(grid) permet la résolution par la methode de la main droite jusqu'a trouvée la sortie materialisée par un 2 dans la matrice. Si le labyrinthe comporte des murs flottants la résolution peut etre impossible.<br />
 
-<h2>La résolution par la méthode du Flood-Fill (TSI_FLOOD.py)</h2>
+<h2>La résolution par la méthode du Flood-Fill (TSI_FLOOD.py)</h2><br />
 
-La fonction flood(maze, maze_explore, iteration, min_action) permet la résolution du labyrinthe par la methode du flood fill.
-/!\ La fonction etant récursive elle nécéssitte d'etre initialisée de telle que : flood("matrice laby", 0, 0, 0)
+La fonction flood(maze, maze_explore, iteration, min_action) permet la résolution du labyrinthe par la methode du flood fill.<br />
+/!\ La fonction etant récursive elle nécéssitte d'etre initialisée de telle que : flood("matrice laby", 0, 0, 0)<br />
 
-<h2>La résolution par la méthode du QLearning (TSI_Qlearning.py)</h2>
+<h2>La résolution par la méthode du QLearning (TSI_Qlearning.py)</h2><br />
 
-Ce programme résoud un labyrinthe par Qlearning.
+Ce programme résoud un labyrinthe par Qlearning.<br />
 
 
 
