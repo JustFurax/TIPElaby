@@ -18,7 +18,7 @@ Aussi nous avons introduit le concept de murs flottants et de taille de labytint
   <img src="https://github.com/JustFurax/TIPElaby/assets/32780530/5950dcde-15ad-461f-b99f-7bf6d83ceb86" alt="Représentaion de la taille et des murs flottants">
 </p>
 
-Par convention nos labyrhinte sont stockés dans une variable sous forme de matrices avec un 1 pour un mur et un 0 pour le vide :
+Par convention nos labyrhinte sont stockés dans une variable sous forme de matrices avec un 1 pour un mur et un 0 pour le vide (avec entrée en haut à gauche et sortie en bas à droite) :
 <p align="center">
   <img src="https://github.com/JustFurax/TIPElaby/assets/32780530/1e9eebb4-f778-443e-a010-c64699c92ed0" alt="Représentation par matrice">
 </p>
