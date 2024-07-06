@@ -1,5 +1,5 @@
 # TIPElaby
-TIPELaby est un projet de fin de prépa portant sur l'étude des labyrinthes. Sous licence creactive commons vous pouvez le réutiliser en créditant : Grichine Nicolas et Brard Louison.
+TIPELaby est un projet de fin de prépa portant sur l'étude des labyrinthes. Sous licence creactive commons BY-NC 4.0 en créditant : Grichine Nicolas et Brard Louison.
 <p align="center">
   <img src="https://github.com/JustFurax/TIPElaby/assets/32780530/d283a8c8-ef18-475a-94e7-0b3a704bb576" alt="Description de l'image">
 </p>
