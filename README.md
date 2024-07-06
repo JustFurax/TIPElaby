@@ -29,7 +29,7 @@ Par convention nos labyrhinte sont stockés dans une variable sous forme de matr
 
 <h2>La Generation par fusion (TSI_GEN_FUSION.py)</h2>
 
-La fonction fusion(taillex, tailley) genère un labyrinthe de taille (taillex*2)+1 sur x, (tailley*2)+1 sur y. Car la methode de génération par fusion doit partir d'un labyrinthe de taille impair.
+La fonction fusion(taillex, tailley) genère un labyrinthe de taille (taillex*2)+1 sur x, (tailley*2)+1 sur y. Car la methode de génération par fusion doit partir d'un labyrinthe de taille impair.<br />
 La fonction murflottants(matmur, nb) prend un labyrinthe et ajoute un nombre nb de murs flottants.
 
 
