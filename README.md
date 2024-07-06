@@ -46,6 +46,22 @@ La fonction flood(maze, maze_explore, iteration, min_action) permet la résoluti
 Ce programme résout un labyrinthe par Q-learning.<br />
 
 
+## Licence
+
+Cette œuvre est mise à disposition selon les termes de la [Licence Creative Commons Attribution - Pas d’Utilisation Commerciale 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/deed.fr).
+
+### Vous êtes libre de :
+- Partager — copier et redistribuer le matériel dans tout format ou support
+- Adapter — remixer, transformer et créer à partir du matériel
+
+### Selon les conditions suivantes :
+- Attribution — Vous devez créditer l’œuvre de la manière indiquée par l’auteur de l’œuvre (mais pas d’une manière qui suggérerait qu’ils vous soutiennent ou soutiennent votre utilisation de l’œuvre).
+- Pas d’Utilisation Commerciale — Vous n’avez pas le droit d’utiliser cette œuvre à des fins commerciales.
+
+### Remarques :
+- Pas de restrictions supplémentaires — Vous n’avez pas le droit d’appliquer des conditions légales ou des mesures techniques qui restreindraient légalement les autres à utiliser l’œuvre de la manière décrite par les termes de la licence.
+
+
 
 
 
