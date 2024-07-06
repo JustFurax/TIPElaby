@@ -1,5 +1,5 @@
 # TIPElaby
-TIPELaby est un projet de fin de prépa portant sur l'étude des labyrinthes. Sous licence creactive commons vous pouvez le réutiliser en créditant : Brard Louison et Grichine Nicolas.
+TIPELaby est un projet de fin de prépa portant sur l'étude des labyrinthes. Sous licence creactive commons vous pouvez le réutiliser en créditant : Grichine Nicolas et Brard Louison.
 <p align="center">
   <img src="https://github.com/JustFurax/TIPElaby/assets/32780530/d283a8c8-ef18-475a-94e7-0b3a704bb576" alt="Description de l'image">
 </p>
@@ -31,5 +31,27 @@ Par convention nos labyrhinte sont stockés dans une variable sous forme de matr
 
 La fonction fusion(taillex, tailley) genère un labyrinthe de taille (taillex*2)+1 sur x, (tailley*2)+1 sur y. Car la methode de génération par fusion doit partir d'un labyrinthe de taille impair.<br />
 La fonction murflottants(matmur, nb) prend un labyrinthe et ajoute un nombre nb de murs flottants.
+
+<h2>La résolution par l'aleatoire (TSI_ALEATOIRE.py)</h2>
+
+La fonction aleatoire(laby) résout le labyrinthe aléatoirement et retourne le nombre de mouvements nécessaire à la resolution.
+
+<h2>La résolution par la méthode du Pompier (main droite) (TSI_POMPIER.py)</h2>
+
+La fonction pompier(grid) permet la résolution par la methode de la main droite jusqu'a trouvée la sortie materialisée par un 2 dans la matrice. Si le labyrinthe comporte des murs flottants la résolution peut etre impossible.
+
+<h2>La résolution par la méthode du Flood-Fill (TSI_FLOOD.py)</h2>
+
+La fonction flood(maze, maze_explore, iteration, min_action) permet la résolution du labyrinthe par la methode du flood fill.
+/!\ La fonction etant récursive elle nécéssitte d'etre initialisée de telle que : flood("matrice laby", 0, 0, 0)
+
+<h2>La résolution par la méthode du QLearning (TSI_Qlearning.py)</h2>
+
+Ce programme résoud un labyrinthe par Qlearning.
+
+
+
+
+
 
 
